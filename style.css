@@ -87,7 +87,7 @@ nav{
     left: 20%;
 }
 #about{
-    margin: 20% 0px 0px 8%;
+    margin: 20% 15px 0px 8%;
 }
 .abouthead{
     text-align: center;
@@ -208,6 +208,36 @@ nav{
 }
 .icon:hover .brands{
     color: white;
+    /* animation */
+    animation: rotate 4s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    25%{
+        transform: rotate(-40deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    75%{
+        transform: rotate(-40deg);
+    }
+    100%{
+        transform: rotate(40deg);
+    }
+}
+footer{
+    margin-top: 8%;
+}
+#copyright{
+    text-align: center;
+
+}
+.Uparrow{
+    float: right;
+    margin-top: -40px;
 }
 html{
     scroll-behavior: smooth;
